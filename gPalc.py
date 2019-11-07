@@ -3,13 +3,11 @@ from tkinter import *
 from tkinter import Tk, ttk
 import csv
 import tkinter
-import tkinter.message
+import tkinter.messagebox
 import tkinter.simpledialog #https://stackoverflow.com/questions/43149229/tkinter-input-and-output-in-python-3
 root = Tk()
 root.title("gPalc")
 file=tkinter.simpledialog.askstring("Number One: ", "Type the first number: ")
-with open(file, 'r') as f: 
-    reader = csv.reader(f, delimiter=',')
 def values():
     print("Some text")
 output=values()
