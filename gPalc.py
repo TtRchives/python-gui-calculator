@@ -9,8 +9,10 @@ root = Tk()
 root.title("gPalc")
 def askFirstNumber():
     num1=tkinter.simpledialog.askstring("Number One: ", "Type the first number: ")
-def values():
-    print("Some text")
+def askSecondNumber():
+    num2=tkinter.simpledialog.askstring("Number two: ", "Type the second number: ")
+def askNumber(func):
+    num=tkinter.simpledialog.askstring("Number", "Type the number to be " +func)
 output=values()
 #def __init__(self, parent, controller):
 #    tkinter.Frame.__init__(self, parent)
