@@ -10,9 +10,9 @@ root.title("gPalc")
 file=tkinter.simpledialog.askstring("Number One: ", "Type the first number: ")
 with open(file, 'r') as f: 
     reader = csv.reader(f, delimiter=',')
-output=values
 def values():
     print("Some text")
+output=values()
 def __init__(self, parent, controller):
     tkinter.Frame.__init__(self, parent)
     self.controller = controller
