@@ -1,7 +1,7 @@
 # python-gui-calculator
 
 
-This python GUI calculator (gPalc) is based off of the original [python-text-calculator](https://github.com/thetechrobo/python-text-calculator). 
+This python GUI calculator (gPalc) is just like [python-text-calculator](https://github.com/TheTechRobo/python-text-calculator) (Palc) in that it has same functions & both are calculators .
 
 Thanks for visiting!
 
@@ -16,4 +16,4 @@ Support questions belong at my [Support](https://github.com/thetechrobo/support)
 Thank you for your cooperation -- I get too much spam :wink:
 
 
-###### Version 0.1
+###### Version n/a
